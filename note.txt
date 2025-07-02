@@ -1,0 +1,7 @@
+=> you can create a token for users in 2 ways which are not good:
+
+1. Using the admin page
+2. run this command: python manage.py drf_create_token username => for example: python manage.py drf_create_token mehran
+
+=> Another way is by using a method:
+https://www.django-rest-framework.org/api-guide/authentication/#by-exposing-an-api-endpointc
